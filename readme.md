@@ -88,6 +88,6 @@ A 1.5-hour workshop by Enoch WONG (DIR, HKBU Library), designed for HKBU staff a
 
 ---
 
-Contribute via pull requests or issues.  For questions, email libms (at) hkbu.edu.hk.  Visit our CLuster website at https://digital.lib.hkbu.edu.hk/digital/index.php.  
+Contribute via pull requests or issues.  For questions, email libms (at) hkbu.edu.hk.  Visit our Cluster website at https://digital.lib.hkbu.edu.hk/digital/index.php.  
   
-Also, as the only [centerNet](https://dhcenternet.org/) member in HK and China, we proudly develop and host a range of digital scholarship projects.  You may see them at https://digital.lib.hkbu.edu.hk/digital/DSS.php.
+Also, as the only [centerNet](https://dhcenternet.org/) member in HK and China, we proudly develop and host a range of digital scholarship projects in collaboration with various faculties.  You may see them at https://digital.lib.hkbu.edu.hk/digital/DSS.php.
