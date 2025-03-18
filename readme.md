@@ -1,4 +1,4 @@
-# Workshop: Introduction to R for Data Analysis
+# Workshop: Introduction to Data Science with R
 ### Hosted by Enoch WONG (DIR, HKBU Library)
 ###
 
