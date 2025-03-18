@@ -1,5 +1,5 @@
 # Workshop: Introduction to R for Data Analysis
-## Hosted by Enoch WONG (DIR, HKBU Library)
+### Hosted by Enoch WONG (DIR, HKBU Library)
 
 A 1.5-hour workshop by Enoch WONG (DIR, HKBU Library), designed for HKBU staff and students from diverse disciplines to learn **R for data science** (exploration and transformation) with plenty of **hands-on practice**.
 
@@ -17,15 +17,15 @@ A 1.5-hour workshop by Enoch WONG (DIR, HKBU Library), designed for HKBU staff a
 ---
 
 ## Repo Structure
-
-├── cheatsheets/ # Key cheat sheets for R and tidyverse
-│ ├── dplyr.pdf
-│ ├── ggplot2.pdf
-│ └── rstudio.pdf
-│ └── tidyr.pdf
-├── codeSnippets/ # R scripts used in the workshop
-│ ├── code.R
-│ └── handson.R
+.  
+├── cheatsheets/ # Key cheat sheets for R and tidyverse  
+│ ├── dplyr.pdf  
+│ ├── ggplot2.pdf  
+│ └── rstudio.pdf  
+│ └── tidyr.pdf  
+├── codeSnippets/ # R scripts used in the workshop  
+│ ├── code.R  
+│ └── handson.R  
 └── README.md # This file
 
 ---
@@ -47,7 +47,7 @@ A 1.5-hour workshop by Enoch WONG (DIR, HKBU Library), designed for HKBU staff a
   - Key functions: `filter()`, `mutate()`, `group_by()`, `summarize()`
 
 ### 4. **Quick Visualization**
-  - Compare `ggplot2` (declarative) vs. `matplotlib` (procedural)
+  - Compare R's `ggplot2` (declarative) vs. Python's `matplotlib` (procedural)
 
 ---
 
@@ -58,8 +58,8 @@ A 1.5-hour workshop by Enoch WONG (DIR, HKBU Library), designed for HKBU staff a
    - [RStudio Download](https://www.rstudio.com/products/rstudio/download/)
 
 2. **Install Packages**:
-   install.packages("tidyverse")  # Includes dplyr, ggplot2, readr, etc.
-   install.packages("tidyTuesday")
+   - `install.packages("tidyverse")`  # Includes dplyr, ggplot2, readr, etc.
+   - `install.packages("tidyTuesday")`
 
 ---
 
@@ -71,8 +71,8 @@ A 1.5-hour workshop by Enoch WONG (DIR, HKBU Library), designed for HKBU staff a
    - R for Data Science (free online at https://r4ds.hadley.nz/)
    - R Markdown: The Definitive Guide (also free online at https://bookdown.org/yihui/rmarkdown/)
 ### Communities:
-   - RStudio Community
-   - #rstats on Twitter
+   - RStudio Community (https://forum.posit.co/c/rstudio-ide/9)
+   - #rstats on Reddit (https://www.reddit.com/r/rstats/)
 
 ---
 
