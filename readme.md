@@ -17,7 +17,7 @@ A 1.5-hour workshop by Enoch WONG (DIR, HKBU Library), designed for HKBU staff a
 ---
 
 ## Repo Structure
-.
+
 ├── cheatsheets/ # Key cheat sheets for R and tidyverse
 │ ├── dplyr.pdf
 │ ├── ggplot2.pdf
@@ -39,7 +39,8 @@ A 1.5-hour workshop by Enoch WONG (DIR, HKBU Library), designed for HKBU staff a
     - Accounting: `tidyquant`, `lubridate`
 
 ### 2. **Data Import & Exploration**
-  - code: [code.R](code_snippets/code.R)
+  - code: [code.R](codeSnippets/code.R)
+  - key to hands-on activities: [handson.R](codeSnippets/handson.R)
   - Key functions: `read_csv()`, `glimpse()`, `count()`, `n_distinct()`
 
 ### 3. **Data Transformation with `dplyr`**
@@ -60,6 +61,8 @@ A 1.5-hour workshop by Enoch WONG (DIR, HKBU Library), designed for HKBU staff a
    install.packages("tidyverse")  # Includes dplyr, ggplot2, readr, etc.
    install.packages("tidyTuesday")
 
+---
+
 ## Resources
 
    - Cheatsheets: See cheatsheets/ folder.
@@ -71,10 +74,14 @@ A 1.5-hour workshop by Enoch WONG (DIR, HKBU Library), designed for HKBU staff a
    - RStudio Community
    - #rstats on Twitter
 
+---
+
 ## Credits
 
-Workshop design inspired by R for Data Science (2e).
-Sample data adapted from TidyTuesday, a weekly data project aimed at the R ecosystem, organised by the Data Science Learning Community (dslc.io).
-Cheatsheets by Posit and RStudio.
+   - Workshop design inspired by *R for Data Science (2e)*.
+   - Sample data adapted from *TidyTuesday*, a weekly data project aimed at the R ecosystem, organised by the *Data Science Learning Community* (https://dslc.io).
+   - Cheatsheets by *Posit* and *RStudio*.
+
+---
 
 Contribute via pull requests or issues. For questions, email [libms (at) hkbu.edu.hk].
