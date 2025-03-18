@@ -21,7 +21,7 @@ A 1.5-hour workshop by Enoch WONG (DIR, HKBU Library), designed for HKBU staff a
 ├── cheatsheets/ # Key cheat sheets for R and tidyverse  
 │ ├── dplyr.pdf  
 │ ├── ggplot2.pdf  
-│ └── rstudio.pdf  
+│ ├── rstudio.pdf  
 │ └── tidyr.pdf  
 ├── codeSnippets/ # R scripts used in the workshop  
 │ ├── code.R  
