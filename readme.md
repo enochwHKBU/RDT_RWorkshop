@@ -69,11 +69,11 @@ A 1.5-hour workshop by Enoch WONG (DIR, HKBU Library), designed for HKBU staff a
 
 ## Resources
 
-   - Cheatsheets: See cheatsheets/ folder.
+   - Cheatsheets: See [cheatsheets/](cheatsheets) folder.
 
 ### Books:
-   - R for Data Science (free online at https://r4ds.hadley.nz/)
-   - R Markdown: The Definitive Guide (also free online at https://bookdown.org/yihui/rmarkdown/)
+   - [R for Data Science (2e)](https://r4ds.hadley.nz/) by Hadley Wickham, Mine Çetinkaya-Rundel, and Garrett Grolemund (2023)
+   - [R Markdown: The Definitive Guide](https://bookdown.org/yihui/rmarkdown/) by Yihui Xie, J. J. Allaire, and Garrett Grolemund (2018)
 ### Communities:
    - [RStudio Community](https://forum.posit.co/c/rstudio-ide/9)
    - [#rstats on Reddit](https://www.reddit.com/r/rstats/)
