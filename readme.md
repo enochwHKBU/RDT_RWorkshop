@@ -85,7 +85,7 @@ A 1.5-hour workshop by Enoch WONG (DIR, HKBU Library), designed for HKBU staff a
 
    - Workshop design inspired by [*R for Data Science (2e)*](https://r4ds.hadley.nz/).
    - Sample data adapted from *TidyTuesday*, a weekly data project aimed at the R ecosystem, organised by the [*Data Science Learning Community*](https://dslc.io).
-   - The Pixar film data used during the workshop comes from an article by Eric Leung.  Please read it at https://erictleung.com/pixarfilms/articles/pixar_film_ratings.html.
+   - The Pixar Films data used during the workshop comes from an article by Eric Leung.  Please read it at https://erictleung.com/pixarfilms/articles/pixar_film_ratings.html.
    - Cheatsheets by *Posit* and *RStudio*.
 
 ---

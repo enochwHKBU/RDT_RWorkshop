@@ -6,7 +6,7 @@ library(dplyr)         # For data manipulation
 library(tidytuesdayR)  # For accessing TidyTuesday datasets
 library(ggplot2)       # For creating visualisations
 
-pixar <- tidytuesdayR::tt_load(2025, week = 10) # Load the Pixar dataset for the year 2025, week 10
+pixar <- tidytuesdayR::tt_load(2025, week = 10) # Load the Pixar Films dataset for the year 2025, week 10
 
 # Extract the 'pixar_films' and 'public_response' datasets from the loaded data
 films <- pixar$pixar_films
