@@ -2,10 +2,12 @@
 install.packages("tidytuesdayR") # Uncomment if not already installed
 
 # Load the required libraries for data manipulation and visualisation
+library(readr)         # For data import
 library(dplyr)         # For data manipulation
 library(tidytuesdayR)  # For accessing TidyTuesday datasets
 library(ggplot2)       # For creating visualisations
 
+#data <- read_csv("path/to/my/csv/file") # Read data stored in a sample csv file into R
 pixar <- tidytuesdayR::tt_load(2025, week = 10) # Load the Pixar Films dataset for the year 2025, week 10
 
 # Extract the 'pixar_films' and 'public_response' datasets from the loaded data
@@ -39,6 +41,7 @@ films %>%
   count(longFilm) # and count the number of long and short films
 
 # Create a bar chart showing the runtime of each film
+library(stringr) # For string manipulation
 film2 <- str_wrap(films$film, width = 13)  # # Wrap text to no more than 13 spaces to fit the chart
 films %>%
   ggplot(aes(x = film2, y = run_time)) +  # Map film names to x-axis and runtime to y-axis
