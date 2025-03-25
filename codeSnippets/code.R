@@ -1,5 +1,7 @@
-#install.packages("tidyverse"))
-install.packages("tidytuesdayR") # Uncomment if not already installed
+#install.packages("tidyverse")
+
+# Install the 'tidytuesdayR' package, which provides access to TidyTuesday datasets
+#install.packages("tidytuesdayR") # Uncomment if not already installed
 
 # Load the required libraries for data manipulation and visualisation
 library(readr)         # For data import
@@ -42,7 +44,7 @@ films %>%
 
 # Create a bar chart showing the runtime of each film
 library(stringr) # For string manipulation
-film2 <- str_wrap(films$film, width = 13)  # # Wrap text to no more than 13 spaces to fit the chart
+film2 <- str_wrap(films$film, width = 13)  # Wrap text to no more than 13 spaces to fit the chart
 films %>%
   ggplot(aes(x = film2, y = run_time)) +  # Map film names to x-axis and runtime to y-axis
   geom_col() +                          # Use a column chart (by value)

@@ -2,12 +2,13 @@
 
 #### Prerequisites ####
 # Install the 'tidytuesdayR' package, which provides access to TidyTuesday datasets
-install.packages("tidytuesdayR")
+#install.packages("tidytuesdayR")
 
 # Load the required libraries for data manipulation and visualisation
 library(dplyr)         # For data manipulation
 library(tidytuesdayR)  # For accessing TidyTuesday datasets
 library(ggplot2)       # For creating visualisations
+library(stringr)       # For string manipulation
 
 pixar <- tidytuesdayR::tt_load(2025, week = 10) # Load the Pixar Films dataset for the year 2025, week 10
 
